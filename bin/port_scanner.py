@@ -9,9 +9,7 @@ colorama.init()
 
 load_dotenv()
 
-
 print_lock = threading.Lock()
-
 IP = os.environ.get("IP")
 
 
